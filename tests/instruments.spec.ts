@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-const route = (id: string, lang = 'en') => `/?preview=revision&lang=${lang}#story/${id}`;
+const route = (id: string, lang = 'en') => `/?lang=${lang}#story/${id}`;
 test('MCP identity blocks transport, tool selection keeps the shared gateway, and reset works', async ({
   page,
 }) => {
@@ -236,7 +236,7 @@ test('Seen cache bypass, provider normalization, privacy and supporting follows'
 });
 test('architecture navigation from mobile and dropdown arrow inset', async ({ page }) => {
   for (const id of ['puramente', 'seen']) {
-    await page.goto(`/?preview=revision&lang=en#mobile/${id}`);
+    await page.goto(`/?lang=en#mobile/${id}`);
     await page.getByRole('link', { name: 'Explore the architecture', exact: true }).click();
     await expect(page.locator(`[data-instrument="${id}"]`)).toBeVisible();
   }
@@ -300,8 +300,8 @@ test('each project operates its own mechanism rather than a shared carriage', as
   await expect(drawer).not.toHaveAttribute('transform', 'translate(0 0)');
 });
 
-test('AI and native audio work are discoverable from the preview home', async ({ page }) => {
-  await page.goto('/?preview=revision&lang=en');
+test('AI and native audio work are discoverable from the homepage', async ({ page }) => {
+  await page.goto('/?lang=en');
   await page.getByRole('link', { name: 'AI', exact: true }).click();
   await expect(page.locator('#ai')).toBeInViewport();
   await expect(page.locator('#ai')).toContainText('OpenAI');

@@ -1,6 +1,6 @@
 # Revision preview
 
-Route: `?preview=revision`. Stage: interactive layout review, before replacing the current site.
+Route: `/`. Stage: publication authorized on October 23, 2026. Existing `?preview=revision` links remain compatible; `?preview=legacy` selects the earlier portfolio.
 Mode: Experience, with readable contribution stories.
 
 Workflow evidence: the Impeccable launcher returned exit 126, Permission denied, before this preview. No FORM seed, QUALITY BAR card, detector report, or approved comp exists. Do not infer one. The invoking `impeccable/SKILL.md` Setup fallback states: “Then read existing PRODUCT.md and DESIGN.md without inventing missing context, follow applicable steps 2–3, and continue through permitted tools. This applies to planning and editing; launcher failure alone does not block either.” The new-work playbook also states that a user- or brief-pinned direction beats the roll. This preview follows that documented fallback and the user's explicit palette, reference, timeline, and mobile-workspace direction. The executable permission was not changed or bypassed.
@@ -17,7 +17,7 @@ React/Next.js, AI and Web3 are separate visible sections. Employment, freelance 
 
 Typography: self-hosted Manrope, controlled scale, short measures. Surfaces: #000000, #141414, #1f1f1f, #2e2e2e, #3b3a3a. Text: #f2f2f2, #b5b5b5. Real brand assets keep their colors. No decorative glow, grain, or page backdrop gradients. The user-requested iPhone-style library wallpaper is a scoped exception, drawn with static CSS gradients. Shadows describe physical depth.
 
-Review at 1440 and 390 CSS pixels, English and Spanish, keyboard navigation, reduced motion, and no-WebGL fallback. Full-site replacement and publication are outside this preview stage.
+Review at 1440 and 390 CSS pixels, English and Spanish, keyboard navigation, reduced motion, and no-WebGL fallback. The user authorized making this design the default homepage and publishing it on October 23, 2026.
 
 ## Direction contract — project instruments
 

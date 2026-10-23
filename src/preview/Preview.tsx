@@ -950,7 +950,7 @@ export default function Preview() {
           </a>
           <SocialLinks tr={tr} footer />
         </div>
-        <span>{tr(['Layout preview · October 2026', 'Vista previa · Octubre de 2026'])}</span>
+        <span>© 2026 Augusto Gonzalez</span>
       </footer>
     </div>
   );

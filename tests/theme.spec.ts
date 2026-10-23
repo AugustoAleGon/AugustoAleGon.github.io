@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-for (const route of ['/', '/?preview=revision']) {
+for (const route of ['/', '/?preview=legacy']) {
   test(`${route} defaults to dark regardless of the system and remembers an explicit choice`, async ({
     page,
   }) => {
@@ -35,7 +35,7 @@ for (const route of ['/', '/?preview=revision']) {
       await page.goto(route);
       await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
       await page.evaluate(() => document.fonts.ready);
-      if (route === '/') {
+      if (route === '/?preview=legacy') {
         await page.locator('#system').scrollIntoViewIfNeeded();
         await expect(page.getByRole('button', { name: 'Run request', exact: true })).toBeVisible();
         await page.getByRole('banner').scrollIntoViewIfNeeded();
@@ -64,7 +64,7 @@ test('theme is applied before the app loads and survives storage being unavailab
       throw new Error('Storage blocked');
     };
   });
-  await page.goto('/?preview=revision&lang=es');
+  await page.goto('/?lang=es');
   await page.getByRole('button', { name: 'Cambiar a modo claro' }).click();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
   await page.getByRole('link', { name: 'Gateway MCP y SSO', exact: true }).click();
@@ -81,7 +81,7 @@ test('stored theme colors the page even when the application bundle cannot load'
   await page.emulateMedia({ colorScheme: 'light' });
   await page.addInitScript(() => localStorage.setItem('portfolio.theme.v1', 'dark'));
   await page.route(/\/assets\/.*\.js$/, (route) => route.abort());
-  await page.goto('/?preview=revision');
+  await page.goto('/');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
   await expect(page.locator('html')).toHaveCSS('background-color', 'rgb(20, 20, 20)');
   await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute('content', '#141414');
@@ -113,7 +113,7 @@ for (const colorScheme of ['light', 'dark'] as const) {
       (theme) => localStorage.setItem('portfolio.theme.v1', theme),
       colorScheme,
     );
-    await page.goto('/?preview=revision#story/mcp');
+    await page.goto('/#story/mcp');
     await expect(page.locator('[data-instrument] [data-step]')).toBeVisible();
     await expect(page.locator('[data-instrument] [data-theme]')).toHaveAttribute(
       'data-theme',
@@ -131,7 +131,7 @@ for (const colorScheme of ['light', 'dark'] as const) {
 test('header controls fit narrow phones and tablets', async ({ page }) => {
   for (const width of [320, 701, 768]) {
     await page.setViewportSize({ width, height: 900 });
-    for (const route of ['/', '/?preview=revision&lang=es']) {
+    for (const route of ['/', '/?lang=es']) {
       await page.goto(route);
       await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
       await page.evaluate(() => document.fonts.ready);

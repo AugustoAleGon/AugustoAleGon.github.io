@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
 test('Seen hides scores until revealed and resets them across leagues', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?preview=legacy');
   await expect(
     page.getByRole('heading', { name: 'Good software. All the way through.' }),
   ).toBeVisible();
@@ -18,7 +18,7 @@ test('Seen hides scores until revealed and resets them across leagues', async ({
 });
 
 test('boards, messaging, playback, and launcher work', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?preview=legacy');
   await page.getByRole('button', { name: 'LP Luxury Presence', exact: true }).click();
   await page.getByRole('button', { name: /A home in the hills/ }).click();
   await page.getByRole('textbox', { name: 'What caught your eye?' }).fill('A bright reading room.');
@@ -50,7 +50,7 @@ test('boards, messaging, playback, and launcher work', async ({ page }) => {
 });
 
 test('language, downloads, and responsive layout', async ({ page, request }) => {
-  await page.goto('/#work');
+  await page.goto('/?preview=legacy#work');
   await page.getByRole('button', { name: 'Switch to Spanish' }).click();
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
   await expect(page).toHaveURL(/lang=es#work/);
@@ -68,7 +68,7 @@ test('language, downloads, and responsive layout', async ({ page, request }) => 
 });
 
 test('system model handles cache, pause, expiry, and reset', async ({ page }) => {
-  await page.goto('/#system');
+  await page.goto('/?preview=legacy#system');
   await page.getByRole('button', { name: 'Run request', exact: true }).click();
   await page.getByRole('button', { name: 'Pause', exact: true }).click();
   await expect(page.getByText('Request paused', { exact: true })).toBeVisible();
@@ -96,14 +96,14 @@ test('reduced motion and unavailable WebGL preserve the model', async ({ page })
       return original.apply(this, args);
     } as typeof original;
   });
-  await page.goto('/#system');
+  await page.goto('/?preview=legacy#system');
   await expect(page.getByText(/Static mode/)).toBeVisible();
   await page.getByRole('button', { name: 'Run request', exact: true }).click();
   await expect(page.getByTestId('requests')).toHaveText('01');
 });
 
 test('keyboard navigation and accessibility', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?preview=legacy');
   await page.locator('#system').scrollIntoViewIfNeeded();
   await expect(page.getByTestId('machine-art')).toBeVisible();
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));

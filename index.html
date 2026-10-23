@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#191c18" />
+    <meta name="theme-color" content="#141414" />
     <script>
       // Resolve the theme before styles and React load to avoid a flash on return visits.
       (() => {
         const root = document.documentElement;
-        const preview = new URLSearchParams(location.search).get('preview') === 'revision';
+        const preview = new URLSearchParams(location.search).get('preview') !== 'legacy';
         root.classList.toggle('revision-preview', preview);
         let saved;
         try {

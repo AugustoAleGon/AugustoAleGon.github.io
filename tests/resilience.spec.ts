@@ -6,7 +6,7 @@ test('a failed demo stays contained, translates, and recovers after reload', asy
 }, info) => {
   const chunk = /\/assets\/Luxury-[^/]+\.js$/;
   await page.route(chunk, (route) => route.abort());
-  await page.goto('/');
+  await page.goto('/?preview=legacy');
   await page.getByRole('button', { name: 'LP Luxury Presence', exact: true }).click();
   await expect(page.getByRole('alert')).toContainText('This section could not load');
   await expect(
@@ -32,7 +32,7 @@ for (const module of ['Architecture', 'Instrument', 'ConsoleArchitecture']) {
   test(`${module} download failure preserves story navigation`, async ({ page }) => {
     const id = module === 'ConsoleArchitecture' ? 'events' : 'mcp';
     await page.route(new RegExp(`/assets/${module}-[^/]+\\.js$`), (route) => route.abort());
-    await page.goto(`/?preview=revision&lang=en#story/${id}`);
+    await page.goto(`/?lang=en#story/${id}`);
     await expect(page.getByRole('alert')).toContainText('This section could not load');
     await expect(
       page.getByRole('heading', { name: 'What I worked on', exact: true }),
@@ -43,10 +43,10 @@ for (const module of ['Architecture', 'Instrument', 'ConsoleArchitecture']) {
   });
 }
 
-test('the preview entry can recover when its download fails', async ({ page }) => {
+test('the homepage entry can recover when its download fails', async ({ page }) => {
   const chunk = /\/assets\/Preview-[^/]+\.js$/;
   await page.route(chunk, (route) => route.abort());
-  await page.goto('/?preview=revision&lang=es');
+  await page.goto('/?lang=es');
   await expect(page.getByRole('alert')).toContainText('No se pudo cargar esta sección');
   await page.unroute(chunk);
   await page.getByRole('button', { name: 'Recargar página', exact: true }).click();
@@ -56,16 +56,16 @@ test('the preview entry can recover when its download fails', async ({ page }) =
 
 test('a failed system download preserves the rest of the portfolio', async ({ page }) => {
   await page.route(/\/assets\/System-[^/]+\.js$/, (route) => route.abort());
-  await page.goto('/#system');
+  await page.goto('/?preview=legacy#system');
   await expect(page.getByRole('alert')).toContainText('This section could not load');
   await expect(
     page.getByRole('heading', { name: 'Good software. All the way through.' }),
   ).toBeVisible();
 });
 
-test('the preview demo can fail without losing its contribution page', async ({ page }) => {
+test('the homepage demo can fail without losing its contribution page', async ({ page }) => {
   await page.route(/\/assets\/Luxury-[^/]+\.js$/, (route) => route.abort());
-  await page.goto('/?preview=revision&lang=en#mobile/luxury');
+  await page.goto('/?lang=en#mobile/luxury');
   await page.getByRole('button', { name: 'Try the demo', exact: true }).click();
   await expect(page.getByRole('alert')).toContainText('This section could not load');
   await page.getByRole('link', { name: 'Back to contribution', exact: true }).click();
@@ -74,7 +74,7 @@ test('the preview demo can fail without losing its contribution page', async ({ 
 });
 
 test('reopening a long chat shows the latest messages', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?preview=legacy');
   await page.getByRole('button', { name: 's SteadyMD', exact: true }).click();
   const conversation = page.getByRole('button', { name: /Dr. Morgan Primary care/ });
   await conversation.click();
@@ -111,7 +111,7 @@ for (const id of ['puramente', 'superpowered']) {
           callback(time);
         });
     });
-    await page.goto(`/?preview=revision&lang=en#story/${id}`);
+    await page.goto(`/?lang=en#story/${id}`);
     const stage = page.locator('[data-instrument] [data-step]');
     await page.getByRole('button', { name: 'Next step', exact: true }).click();
     await page.getByRole('button', { name: 'Next step', exact: true }).click();

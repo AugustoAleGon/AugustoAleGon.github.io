@@ -1,6 +1,6 @@
 ---
 name: 'Augusto Gonzalez — Revision preview'
-description: 'Shadowland surfaces and physical engineering figures for the interactive preview; pending user review.'
+description: 'Shadowland surfaces and physical engineering figures for the published portfolio.'
 colors:
   {
     'black': '#000000',
@@ -168,7 +168,7 @@ components:
 
 **Creative North Star: "Shadowland technical workspace"**
 
-This document describes only the implemented interactive layout at `?preview=revision`. It is pending the user’s review; it does not approve replacement of `/` or publication. Root `DESIGN.md` and root `.impeccable/design.json` record the original light site and remain preserved. They are a separate visual world, not drift to repair in this pass.
+This document describes the published design at `/`, promoted with the user’s authorization on October 23, 2026. Existing `?preview=revision` links remain compatible. Root `DESIGN.md` and root `.impeccable/design.json` record the earlier portfolio, now available only at `?preview=legacy`; this document is the visual authority for the homepage.
 
 The user pinned Shadowland and the supplied desk-computer reference. The preview translates those references into charcoal reading surfaces, restrained Manrope typography, authentic colored app identities, and distinct isometric instruments whose physical mechanisms explain engineering responsibilities. The direction comes from that explicit brief, not a generated comp: the launcher failed with exit 126 and the documented fallback was used. No FORM seed, QUALITY BAR card, or detector report exists.
 
@@ -293,7 +293,7 @@ Imported demos retain their own existing surfaces, including the light phone dem
 
 ### Do:
 
-- Do keep the preview boundary and pending-review status explicit.
+- Do keep the published homepage as the default and preserve existing preview links.
 - Do use the provided portrait and verified brand assets with their established identity.
 - Do keep the contribution story before its optional fictional-data demo.
 - Do preserve visible focus, semantic controls, translated names, static signal fallback, and reduced-motion behavior.
@@ -301,13 +301,13 @@ Imported demos retain their own existing surfaces, including the light phone dem
 
 ### Don't:
 
-- Don't replace the root design documents or publish this preview as an approved site.
+- Don't apply the legacy root design tokens to the published homepage.
 - Don't substitute letter avatars, emoji, or invented company marks for the verified brand assets.
 - Don't turn the reference’s surrounding social/video interface into portfolio decoration.
 - Don't generalize the inherited light demo surfaces into the preview’s page palette.
 - Don't invent a FORM seed, quality card, detector result, or user approval.
 
-Not canonized or repaired: root documentation belongs to the original light site; inherited demo styling is intentionally outside this preview’s general tokens. Pending user review is not treated as approval. No new implementation defect is legitimized as a design rule by this documentation pass.
+Not canonized or repaired: root documentation belongs to the original light site; inherited demo styling is intentionally outside this preview’s general tokens. Publication was explicitly authorized on October 23, 2026. No new implementation defect is legitimized as a design rule by this documentation pass.
 
 ## Light and dark page modes
 
@@ -315,4 +315,4 @@ The shared header sun/moon control now supports both modes. The dark variant pre
 
 Contribution rows, architecture controls, fields and readouts follow the page theme. Project drawings initially follow the page theme; Paper view remains an independent material override for the current drawing. The legacy Events console remains a graphite object, and the phone workspace and playable demos retain their scoped palettes. Keyboard focus uses the current foreground color, with native controls inheriting the relevant color scheme.
 
-Both routes share the saved preference, dark default, translated control labels and pre-paint initialization described in the root design document. Adding theme support does not promote or publish the revision preview.
+Both routes share the saved preference, dark default, translated control labels and pre-paint initialization described in the root design document. The revised design is now the default at `/`; the earlier design requires `?preview=legacy`.

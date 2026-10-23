@@ -4,7 +4,7 @@ import AxeBuilder from '@axe-core/playwright';
 test('revision connects career stories, architecture steps and browser history', async ({
   page,
 }) => {
-  await page.goto('/?preview=revision&lang=en');
+  await page.goto('/');
   await expect(
     page.getByRole('link', { name: 'Explore the MCP gateway', exact: true }).first(),
   ).toBeInViewport();
@@ -24,7 +24,7 @@ test('revision connects career stories, architecture steps and browser history',
 });
 
 test('mobile workspace opens contributions before demos and resets on return', async ({ page }) => {
-  await page.goto('/?preview=revision&lang=en#mobile');
+  await page.goto('/?lang=en#mobile');
   await page.getByRole('link', { name: 'Sports Seen View my work' }).click();
   await expect(page.getByRole('heading', { name: 'My contribution', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Reveal score: Brooklyn Orbit' })).toHaveCount(0);
@@ -57,7 +57,7 @@ test('revision supports Spanish, reduced motion, and a readable no-WebGL archite
       return original.apply(this, args);
     } as typeof original;
   });
-  await page.goto('/?preview=revision&lang=es#story/events');
+  await page.goto('/?lang=es#story/events');
   await expect(
     page.getByRole('heading', { name: 'Separar el trabajo lento de la solicitud.' }),
   ).toBeVisible();
@@ -73,3 +73,21 @@ test('revision supports Spanish, reduced motion, and a readable no-WebGL archite
   await expect(page.getByRole('heading', { name: 'Queue the work', exact: true })).toBeVisible();
   await expect(page).toHaveURL(/lang=en#story\/events/);
 });
+
+for (const route of ['/', '/?preview=revision']) {
+  test(`${route} opens the published design and preserves it when switching language`, async ({
+    page,
+  }) => {
+    await page.goto(route);
+    await expect(
+      page.getByRole('link', { name: 'Explore the MCP gateway', exact: true }).first(),
+    ).toBeVisible();
+    await expect(page.locator('html')).toHaveClass(/revision-preview/);
+    await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute('content', '#141414');
+    await expect(page.getByText('Layout preview · October 2026')).toHaveCount(0);
+    await page.getByRole('button', { name: 'ES — Cambiar a español' }).click();
+    await page.reload();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'es');
+    await expect(page.getByRole('link', { name: 'Gateway MCP y SSO', exact: true })).toBeVisible();
+  });
+}
