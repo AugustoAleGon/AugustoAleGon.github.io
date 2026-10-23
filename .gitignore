@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.local
+.env*
+!.env.example
+.idea/
+.DS_Store
+test-results/
+playwright-report/
+.impeccable/review/
+*.tsbuildinfo
+.codex/project-memory.json
+.playwright-mcp/

@@ -1,0 +1,718 @@
+.demo {
+  padding: 19px 19px 12px;
+  font-size: 12px;
+  min-height: 100%;
+}
+.demo button,
+.demo input,
+.demo textarea {
+  font-family: inherit;
+}
+.demo button {
+  cursor: pointer;
+}
+.demo h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+.sub {
+  font-size: 11px;
+  line-height: 1.6;
+  opacity: 0.75;
+  margin: 10px 0 24px;
+}
+.small {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #68685e;
+  margin: 7px 0;
+}
+.back {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0;
+  margin: 18px 0;
+  background: none;
+  border: 0;
+  font-size: 10px;
+  color: inherit;
+}
+.iconButton {
+  border: 1px solid #4a4b43;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: none;
+  color: #b1b2a8;
+  width: 33px;
+  height: 33px;
+}
+.iconButton[aria-pressed='true'] {
+  color: #ff9b78;
+  border-color: #a45a3f;
+  background: #32241c;
+}
+.seenHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seenLogo {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: #ff805b;
+  display: flex;
+  align-items: center;
+}
+.seenLogo > span:first-child {
+  color: #f5f3ee;
+}
+.logoDot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #ff805b;
+  margin-left: 5px;
+  margin-top: 14px;
+}
+.seenHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin: 27px 0 18px;
+}
+.seenHeading h3 {
+  font-size: 24px;
+}
+.seenHeading > span {
+  font-size: 8px;
+  color: #a5a69d;
+  padding-bottom: 4px;
+}
+.sports {
+  display: flex;
+  gap: 8px;
+}
+.sports button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 650;
+  color: #aaa99f;
+  border: 1px solid #35372f;
+  border-radius: 6px;
+  padding: 9px 10px;
+  background: transparent;
+}
+.sports button[aria-pressed='true'] {
+  background: #e47b55;
+  color: #151812;
+  border-color: #e47b55;
+}
+.leagueBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 13px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.shieldState {
+  display: flex;
+  gap: 4px;
+  color: #d2aa96;
+  align-items: center;
+  font-size: 8px;
+  font-weight: 500;
+}
+.days {
+  border-top: 1px solid #30322a;
+  border-bottom: 1px solid #30322a;
+  display: flex;
+}
+.days button {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 2px;
+  font-size: 10px;
+  color: #aaa99f;
+  background: transparent;
+}
+.days button[aria-pressed='true'] {
+  color: #ff9974;
+  border-bottom-color: #ff9974;
+}
+.games {
+  display: grid;
+  gap: 10px;
+  margin-top: 13px;
+}
+.game {
+  background: #1c1e19;
+  border-radius: 10px;
+  padding: 11px 12px;
+}
+.gameStatus {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #c3c4b8;
+  font-size: 8px;
+  margin-bottom: 11px;
+}
+.gameStatus > span:last-child {
+  margin-left: auto;
+  color: #b0b1a7;
+}
+.liveDot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #e5936c;
+}
+.team {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 8px 0;
+}
+.team > span {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #414a3e;
+  width: 23px;
+  height: 23px;
+  font-size: 7px;
+  font-weight: 700;
+}
+.team:nth-child(3) > span {
+  background: #594331;
+}
+.team strong {
+  font-size: 10px;
+  font-weight: 550;
+}
+.scoreArea {
+  margin-top: 9px;
+  border-top: 1px solid #35372f;
+  padding-top: 8px;
+}
+.concealed {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #33352d;
+  border: 0;
+  border-radius: 5px;
+  color: #e0ddd0;
+  font-size: 9px;
+  padding: 7px;
+}
+.concealed svg:last-child {
+  margin-left: auto;
+}
+.score {
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 17px;
+  font-weight: 650;
+}
+.luxuryLogo {
+  font-size: 8px;
+  letter-spacing: 0.11em;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0 29px;
+}
+.luxuryLogo > span {
+  border: 1px solid #a8a89a;
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  font-size: 8px;
+  letter-spacing: -0.03em;
+}
+.house {
+  height: 145px;
+  background: #d8ded7;
+  position: relative;
+  overflow: hidden;
+}
+.sun {
+  position: absolute;
+  background: #f2ecd8;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  left: 25px;
+  top: 15px;
+}
+.hill {
+  position: absolute;
+  background: #9fae99;
+  width: 240px;
+  height: 80px;
+  border-radius: 60% 90% 0 0;
+  bottom: -4px;
+  left: -50px;
+}
+.building {
+  position: absolute;
+  height: 61px;
+  width: 133px;
+  background: #eee9dc;
+  right: 27px;
+  bottom: 27px;
+  box-shadow: 10px 6px 0 #b9b6a9;
+  display: flex;
+  gap: 5px;
+  padding: 14px 8px 0;
+  transform: skewY(-4deg);
+}
+.building::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -8px;
+  right: -8px;
+  height: 8px;
+  background: #626b5b;
+}
+.building i {
+  height: 47px;
+  flex: 1;
+  background: #526356;
+  border-left: 3px solid #bbbeb0;
+}
+.house > span {
+  position: absolute;
+  width: 270px;
+  height: 20px;
+  background: #bdc5ad;
+  bottom: -4px;
+  transform: rotate(-5deg);
+}
+.boardButton {
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 0;
+  width: 100%;
+}
+.boardButton .house {
+  border-radius: 8px;
+}
+.boardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 650;
+  margin-top: 15px;
+}
+.boardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 9px;
+  margin-top: 20px;
+  color: #68685e;
+}
+.avatars {
+  display: flex;
+  padding-left: 4px;
+}
+.avatars span {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #c6c8b7;
+  border: 2px solid #fbfaf7;
+  margin-left: -4px;
+  color: #34382e;
+}
+.avatars span:last-child {
+  background: #e1d6c4;
+}
+.boardRule {
+  height: 1px;
+  background: #deded4;
+  margin: 28px 0 20px;
+}
+.share {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  background: #eeeee6;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin: 13px 0;
+  color: #41483b;
+  font-size: 10px;
+}
+.property {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+.noteTitle {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  margin: 20px 0 9px;
+}
+.note {
+  background: #f0efe7;
+  font-size: 10px;
+  line-height: 1.6;
+  padding: 9px 10px;
+  border-radius: 5px;
+  margin: 7px 0;
+  overflow-wrap: anywhere;
+}
+.luxury textarea {
+  resize: vertical;
+  min-height: 56px;
+  width: 100%;
+  border: 1px solid #bcbcaa;
+  border-radius: 4px;
+  background: transparent;
+  padding: 8px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.darkButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  padding: 9px;
+  margin-top: 6px;
+  border-radius: 4px;
+  background: #30372a;
+  color: white;
+  font-size: 10px;
+}
+.darkButton:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.chatLogo {
+  color: #366875;
+  font-weight: 800;
+  font-size: 21px;
+  letter-spacing: -0.04em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.chatLogo > span:first-child {
+  font-weight: 450;
+}
+.healthMark {
+  margin-left: auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  background: #366875;
+  display: grid;
+  place-items: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.conversation {
+  border: 0;
+  border-top: 1px solid #d3deda;
+  border-bottom: 1px solid #d3deda;
+  background: none;
+  display: flex;
+  padding: 20px 0;
+  align-items: start;
+  width: 100%;
+  text-align: left;
+  gap: 10px;
+}
+.doctor {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #d0ded9;
+  color: #38675d;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.conversation strong,
+.chatPerson strong {
+  font-size: 11px;
+  display: block;
+}
+.conversation span,
+.chatPerson span {
+  font-size: 9px;
+  display: block;
+  color: #617268;
+  margin-top: 3px;
+}
+.conversation p {
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 13px 0 0;
+  color: #4c5955;
+}
+.conversation svg {
+  flex-shrink: 0;
+}
+.medicalNote {
+  color: #63716b;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 18px 0 0;
+}
+.chatPerson {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.connection {
+  margin: 14px 0 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #e9eee9;
+  border: 0;
+  border-radius: 4px;
+  color: #4b6254;
+  font-size: 9px;
+  padding: 7px;
+}
+.connection svg {
+  margin-left: auto;
+}
+.onlineDot,
+.offlineDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #50794f;
+}
+.offlineDot {
+  background: #a46c35;
+}
+.messageList {
+  height: 174px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 0 2px;
+}
+.chatTime {
+  text-align: center;
+  color: #6a756e;
+  font-size: 8px;
+  margin: 7px 0 15px;
+}
+.bubble {
+  padding: 10px 11px;
+  border-radius: 9px 9px 9px 1px;
+  background: #e8ede7;
+  max-width: 91%;
+  font-size: 10px;
+  line-height: 1.6;
+  margin: 9px 0;
+  overflow-wrap: anywhere;
+}
+.outgoing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.outgoing .bubble {
+  border-radius: 9px 9px 1px 9px;
+  background: #3e6b71;
+  color: #fff;
+}
+.outgoing small {
+  font-size: 8px;
+  color: #69766d;
+}
+.compose {
+  display: flex;
+  border: 1px solid #bccdc2;
+  border-radius: 6px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.compose input {
+  border: none;
+  background: none;
+  width: 100%;
+  min-width: 0;
+  padding: 10px 7px;
+  font-size: 10px;
+}
+.compose button {
+  border: 0;
+  color: #fff;
+  background: #3d6970;
+  padding: 7px;
+}
+.compose button:disabled {
+  opacity: 0.5;
+}
+.puraLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  letter-spacing: -0.04em;
+  margin-bottom: 25px;
+}
+.meditation h3 {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 27px;
+}
+.meditation .sub {
+  text-align: center;
+  font-size: 10px;
+  margin: 9px 0 18px;
+}
+.landscape {
+  position: relative;
+  height: 128px;
+  overflow: hidden;
+  border-radius: 70px 70px 5px 5px;
+  margin: 0 31px;
+  background: #d3ddcb;
+}
+.orb {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #f4efd9;
+  border-radius: 50%;
+  left: 35px;
+  top: 20px;
+}
+.ridgeOne {
+  position: absolute;
+  width: 230px;
+  height: 120px;
+  bottom: -60px;
+  left: -60px;
+  background: #9dac91;
+  transform: rotate(25deg);
+  border-radius: 45%;
+}
+.ridgeTwo {
+  position: absolute;
+  width: 200px;
+  height: 110px;
+  bottom: -58px;
+  right: -80px;
+  background: #6f8972;
+  transform: rotate(-20deg);
+  border-radius: 40%;
+}
+.ridgeThree {
+  position: absolute;
+  width: 200px;
+  height: 90px;
+  bottom: -65px;
+  left: -25px;
+  background: #4a6a5b;
+  border-radius: 40%;
+}
+.session {
+  text-align: center;
+  margin: 17px 0 12px;
+}
+.session h4 {
+  font-size: 13px;
+  font-weight: 650;
+}
+.session p {
+  font-size: 9px;
+  color: #576b5c;
+  margin-top: 5px;
+}
+.seek {
+  width: 100%;
+  height: 4px;
+  accent-color: #3f6751;
+}
+.times {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #4b6351;
+  margin-top: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.playButton {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0;
+  background: #355d49;
+  color: #f6f5e9;
+  margin: 10px auto;
+}
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px auto;
+  width: 110px;
+}
+.volume input {
+  width: 85px;
+  height: 3px;
+  accent-color: #466a54;
+}
+.offlineSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: transparent;
+  border: 0;
+  font-size: 9px;
+  color: #425b49;
+  margin: 11px auto 0;
+  padding: 6px;
+}
+.audioNote {
+  text-align: center;
+  font-size: 8px;
+  line-height: 1.5;
+  color: #586959;
+  margin: 8px 0 0;
+}
+.audioError {
+  font-size: 10px;
+  color: #963c21;
+}

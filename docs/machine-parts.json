@@ -1,0 +1,250 @@
+[
+  {
+    "name": "stand.foot-0",
+    "kind": "body"
+  },
+  {
+    "name": "stand.foot-1",
+    "kind": "body"
+  },
+  {
+    "name": "stand.foot-2",
+    "kind": "body"
+  },
+  {
+    "name": "stand.foot-3",
+    "kind": "body"
+  },
+  {
+    "name": "stand.deck",
+    "kind": "box"
+  },
+  {
+    "name": "deck-bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "request.mount",
+    "kind": "box"
+  },
+  {
+    "name": "request.bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "request.bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "request.bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "request.bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "cache.mount",
+    "kind": "box"
+  },
+  {
+    "name": "cache.bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "cache.bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "cache.bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "cache.bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.mount",
+    "kind": "box"
+  },
+  {
+    "name": "adapter.bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.mount",
+    "kind": "box"
+  },
+  {
+    "name": "normalize.bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "response.mount",
+    "kind": "box"
+  },
+  {
+    "name": "response.bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "response.bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "response.bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "response.bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "request.housing",
+    "kind": "body"
+  },
+  {
+    "name": "request.collar",
+    "kind": "body"
+  },
+  {
+    "name": "request.stem",
+    "kind": "body"
+  },
+  {
+    "name": "request.button",
+    "kind": "body"
+  },
+  {
+    "name": "cache.base",
+    "kind": "body"
+  },
+  {
+    "name": "cache.reservoir",
+    "kind": "body"
+  },
+  {
+    "name": "cache.lid",
+    "kind": "body"
+  },
+  {
+    "name": "cache.neck",
+    "kind": "body"
+  },
+  {
+    "name": "cache.valve",
+    "kind": "body"
+  },
+  {
+    "name": "cache.level-0",
+    "kind": "box"
+  },
+  {
+    "name": "cache.level-1",
+    "kind": "box"
+  },
+  {
+    "name": "cache.level-2",
+    "kind": "box"
+  },
+  {
+    "name": "cache.level-3",
+    "kind": "box"
+  },
+  {
+    "name": "adapter.base",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.selector",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.dial",
+    "kind": "body"
+  },
+  {
+    "name": "adapter.hub",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.foot",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.chamber",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.flange",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.motor",
+    "kind": "body"
+  },
+  {
+    "name": "normalize.cap",
+    "kind": "body"
+  },
+  {
+    "name": "response.plinth",
+    "kind": "box"
+  },
+  {
+    "name": "response.case",
+    "kind": "box"
+  },
+  {
+    "name": "response.face",
+    "kind": "box"
+  },
+  {
+    "name": "response.display-0",
+    "kind": "box"
+  },
+  {
+    "name": "response.display-1",
+    "kind": "box"
+  },
+  {
+    "name": "response.display-2",
+    "kind": "box"
+  }
+]

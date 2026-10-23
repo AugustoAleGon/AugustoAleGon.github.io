@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "ignorePatterns": [
+    "vendor/**",
+    "src/system/generated.ts",
+    "src/preview/console.generated.ts",
+    "docs/console-parts.json",
+    "docs/machine-parts.json",
+    "pnpm-lock.yaml",
+    "src/preview/instruments/*.generated.ts"
+  ]
+}

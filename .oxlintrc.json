@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react", "jsx-a11y", "react-hooks"],
+  "categories": { "correctness": "error" },
+  "rules": { "react/react-in-jsx-scope": "off" },
+  "ignorePatterns": ["vendor/**", "src/system/generated.ts"]
+}

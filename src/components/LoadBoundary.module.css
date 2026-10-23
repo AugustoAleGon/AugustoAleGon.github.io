@@ -1,0 +1,19 @@
+.failure {
+  display: grid;
+  justify-items: start;
+  gap: 16px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.failure button {
+  padding: 10px 16px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+}
+.failure button:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
