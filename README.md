@@ -48,7 +48,16 @@ See [content evidence](docs/content-evidence.md), [store-link audit](docs/store-
 
 ## Deploy
 
-The GitHub Pages workflow is manual. In repository Settings → Pages, select **GitHub Actions** as the source. Then run **Actions → Deploy portfolio → Run workflow** from the branch to publish. It checks and builds the site before uploading `dist`.
+The [CI / CD workflow](.github/workflows/check.yml) runs for pull requests into `master`, pushes to `master`, and manual dispatches. It:
+
+1. Installs locked dependencies using the Node version in `.node-version` and the pnpm version in `package.json`, with a cached pnpm store.
+2. Checks formatting and PR commit messages, then runs lint, TypeScript, unit tests, geometry audits, and the production build. Generated geometry must match the committed files.
+3. Saves `dist` once and tests that exact artifact in parallel desktop and mobile Playwright jobs. CI rejects focused tests, uses two workers per job, and retries failures twice. HTML reports and failure traces are retained for 14 days; the build is retained for 7 days.
+4. Deploys the same tested artifact to GitHub Pages only after both browser jobs pass, and only for a push or manual run on `master`. PRs and manual runs on other branches cannot deploy.
+
+GitHub Pages must use **GitHub Actions** as its publishing source, with the `github-pages` environment allowing `master`. Only the deployment job receives Pages write and OIDC permissions. Actions are pinned to reviewed commit SHAs. Outdated PR checks are cancelled; an active production run is allowed to finish.
+
+For a manual redeployment, open **Actions → CI / CD → Run workflow** and select `master`; all checks run again. To roll back a release, revert its commit on `master` and push the revert through the same pipeline. No separate rebuild occurs during deployment.
 
 This repository is the root user site (`augustoalegon.github.io`), so Vite uses `/` as its base. Update Vite's base and the root-relative asset URLs before moving it to a project subpath. No deployment occurs during local development.
 
