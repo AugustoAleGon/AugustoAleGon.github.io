@@ -159,6 +159,11 @@ A.settle(R, P);
 A.auditOrExit(R, P);
 const sorted = R.items.toSorted((a, b) => a.key - b.key);
 const markup = (item) => `<g data-module="${item.component}">${item.svg}</g>`;
+const camera = glCamera(P);
+// Trigonometric results vary in their last bits across macOS and Linux.
+// Keep generated constants stable at a precision well above WebGL's float32 uniforms.
+camera.k = Number(camera.k.toFixed(12));
+camera.cam = camera.cam.map((value) => Number(value.toFixed(12)));
 const art = {
   width,
   height,
@@ -172,7 +177,7 @@ const art = {
     .map(markup)
     .join(''),
   worldRoutes,
-  camera: glCamera(P),
+  camera,
   parts: R.solids.length,
 };
 writeFileSync(
