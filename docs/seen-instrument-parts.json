@@ -1,0 +1,190 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-wall-0",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-wall-1",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-back",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-lid",
+    "kind": "prism"
+  },
+  {
+    "name": "drawer-shelf-0",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-drawer-0",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-pull-0",
+    "kind": "prism"
+  },
+  {
+    "name": "drawer-shelf-1",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-drawer-1",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-pull-1",
+    "kind": "prism"
+  },
+  {
+    "name": "drawer-shelf-2",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-drawer-2",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-pull-2",
+    "kind": "prism"
+  },
+  {
+    "name": "provider-base-0",
+    "kind": "prism"
+  },
+  {
+    "name": "adapter-0",
+    "kind": "prism"
+  },
+  {
+    "name": "provider-plug-0",
+    "kind": "prism"
+  },
+  {
+    "name": "provider-base-1",
+    "kind": "prism"
+  },
+  {
+    "name": "adapter-1",
+    "kind": "prism"
+  },
+  {
+    "name": "provider-plug-1",
+    "kind": "prism"
+  },
+  {
+    "name": "normalizer",
+    "kind": "prism"
+  },
+  {
+    "name": "score-tray",
+    "kind": "prism"
+  },
+  {
+    "name": "score-slat-0",
+    "kind": "prism"
+  },
+  {
+    "name": "privacy-shutter-0",
+    "kind": "prism"
+  },
+  {
+    "name": "score-slat-1",
+    "kind": "prism"
+  },
+  {
+    "name": "privacy-shutter-1",
+    "kind": "prism"
+  },
+  {
+    "name": "score-slat-2",
+    "kind": "prism"
+  },
+  {
+    "name": "privacy-shutter-2",
+    "kind": "prism"
+  },
+  {
+    "name": "account",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-0",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-1",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-2",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-3",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-4",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-5",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-6",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-7",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-8",
+    "kind": "prism"
+  },
+  {
+    "name": "cache-vents-9",
+    "kind": "prism"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "press-shoe-0",
+    "kind": "prism"
+  },
+  {
+    "name": "press-column-0",
+    "kind": "prism"
+  },
+  {
+    "name": "press-shoe-1",
+    "kind": "prism"
+  },
+  {
+    "name": "press-column-1",
+    "kind": "prism"
+  },
+  {
+    "name": "crosshead",
+    "kind": "prism"
+  },
+  {
+    "name": "platen-guide",
+    "kind": "prism"
+  },
+  {
+    "name": "platen",
+    "kind": "prism"
+  },
+  {
+    "name": "platen-sleeve",
+    "kind": "prism"
+  },
+  {
+    "name": "paper-bed",
+    "kind": "prism"
+  },
+  {
+    "name": "note-plate",
+    "kind": "prism"
+  },
+  {
+    "name": "type-mount-0",
+    "kind": "prism"
+  },
+  {
+    "name": "type-block-0",
+    "kind": "prism"
+  },
+  {
+    "name": "type-tab-0",
+    "kind": "prism"
+  },
+  {
+    "name": "type-mount-1",
+    "kind": "prism"
+  },
+  {
+    "name": "type-block-1",
+    "kind": "prism"
+  },
+  {
+    "name": "type-tab-1",
+    "kind": "prism"
+  },
+  {
+    "name": "type-mount-2",
+    "kind": "prism"
+  },
+  {
+    "name": "type-block-2",
+    "kind": "prism"
+  },
+  {
+    "name": "type-tab-2",
+    "kind": "prism"
+  },
+  {
+    "name": "type-mount-3",
+    "kind": "prism"
+  },
+  {
+    "name": "type-block-3",
+    "kind": "prism"
+  },
+  {
+    "name": "type-tab-3",
+    "kind": "prism"
+  },
+  {
+    "name": "member-mount-0",
+    "kind": "prism"
+  },
+  {
+    "name": "member-clip-0",
+    "kind": "prism"
+  },
+  {
+    "name": "member-handle-0",
+    "kind": "prism"
+  },
+  {
+    "name": "member-mount-1",
+    "kind": "prism"
+  },
+  {
+    "name": "member-clip-1",
+    "kind": "prism"
+  },
+  {
+    "name": "member-handle-1",
+    "kind": "prism"
+  },
+  {
+    "name": "member-mount-2",
+    "kind": "prism"
+  },
+  {
+    "name": "member-clip-2",
+    "kind": "prism"
+  },
+  {
+    "name": "member-handle-2",
+    "kind": "prism"
+  },
+  {
+    "name": "crosshead-ridge-0",
+    "kind": "prism"
+  },
+  {
+    "name": "crosshead-ridge-1",
+    "kind": "prism"
+  },
+  {
+    "name": "crosshead-ridge-2",
+    "kind": "prism"
+  },
+  {
+    "name": "crosshead-ridge-3",
+    "kind": "prism"
+  }
+]

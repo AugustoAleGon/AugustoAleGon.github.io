@@ -1,0 +1,198 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "loom-post-0",
+    "kind": "prism"
+  },
+  {
+    "name": "loom-post-1",
+    "kind": "prism"
+  },
+  {
+    "name": "upper-beam",
+    "kind": "prism"
+  },
+  {
+    "name": "lower-beam",
+    "kind": "prism"
+  },
+  {
+    "name": "thread-backing",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-hub-0",
+    "kind": "prism"
+  },
+  {
+    "name": "thread-0",
+    "kind": "prism"
+  },
+  {
+    "name": "resolver-0",
+    "kind": "prism"
+  },
+  {
+    "name": "response-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-1",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-hub-1",
+    "kind": "prism"
+  },
+  {
+    "name": "thread-1",
+    "kind": "prism"
+  },
+  {
+    "name": "resolver-1",
+    "kind": "prism"
+  },
+  {
+    "name": "response-1",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-2",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-hub-2",
+    "kind": "prism"
+  },
+  {
+    "name": "thread-2",
+    "kind": "prism"
+  },
+  {
+    "name": "resolver-2",
+    "kind": "prism"
+  },
+  {
+    "name": "response-2",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-3",
+    "kind": "prism"
+  },
+  {
+    "name": "bobbin-hub-3",
+    "kind": "prism"
+  },
+  {
+    "name": "thread-3",
+    "kind": "prism"
+  },
+  {
+    "name": "resolver-3",
+    "kind": "prism"
+  },
+  {
+    "name": "response-3",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-rail",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-2",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-3",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-4",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-5",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-6",
+    "kind": "prism"
+  },
+  {
+    "name": "reed-tooth-7",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-0",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-1",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-2",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-3",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-4",
+    "kind": "prism"
+  },
+  {
+    "name": "beam-tick-5",
+    "kind": "prism"
+  }
+]

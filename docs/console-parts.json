@@ -1,0 +1,238 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "body"
+  },
+  {
+    "name": "foot-1",
+    "kind": "body"
+  },
+  {
+    "name": "foot-2",
+    "kind": "body"
+  },
+  {
+    "name": "foot-3",
+    "kind": "body"
+  },
+  {
+    "name": "deck",
+    "kind": "box"
+  },
+  {
+    "name": "deck-bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "deck-bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "mount-0",
+    "kind": "box"
+  },
+  {
+    "name": "mount-0-bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "mount-0-bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "mount-0-bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "mount-0-bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "mount-1",
+    "kind": "box"
+  },
+  {
+    "name": "mount-1-bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "mount-1-bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "mount-1-bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "mount-1-bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "mount-2",
+    "kind": "box"
+  },
+  {
+    "name": "mount-2-bolt-0",
+    "kind": "body"
+  },
+  {
+    "name": "mount-2-bolt-1",
+    "kind": "body"
+  },
+  {
+    "name": "mount-2-bolt-2",
+    "kind": "body"
+  },
+  {
+    "name": "mount-2-bolt-3",
+    "kind": "body"
+  },
+  {
+    "name": "terminal-case",
+    "kind": "box"
+  },
+  {
+    "name": "terminal-bezel",
+    "kind": "box"
+  },
+  {
+    "name": "terminal-display",
+    "kind": "box"
+  },
+  {
+    "name": "key-0-0",
+    "kind": "box"
+  },
+  {
+    "name": "key-0-1",
+    "kind": "box"
+  },
+  {
+    "name": "key-0-2",
+    "kind": "box"
+  },
+  {
+    "name": "key-0-3",
+    "kind": "box"
+  },
+  {
+    "name": "key-1-0",
+    "kind": "box"
+  },
+  {
+    "name": "key-1-1",
+    "kind": "box"
+  },
+  {
+    "name": "key-1-2",
+    "kind": "box"
+  },
+  {
+    "name": "key-1-3",
+    "kind": "box"
+  },
+  {
+    "name": "key-2-0",
+    "kind": "box"
+  },
+  {
+    "name": "key-2-1",
+    "kind": "box"
+  },
+  {
+    "name": "key-2-2",
+    "kind": "box"
+  },
+  {
+    "name": "key-2-3",
+    "kind": "box"
+  },
+  {
+    "name": "gate-base",
+    "kind": "body"
+  },
+  {
+    "name": "gate-body",
+    "kind": "body"
+  },
+  {
+    "name": "gate-collar",
+    "kind": "body"
+  },
+  {
+    "name": "gate-dial",
+    "kind": "body"
+  },
+  {
+    "name": "gate-grip",
+    "kind": "box"
+  },
+  {
+    "name": "rack-0",
+    "kind": "box"
+  },
+  {
+    "name": "rack-1",
+    "kind": "box"
+  },
+  {
+    "name": "rack-2",
+    "kind": "box"
+  },
+  {
+    "name": "jack-0-0",
+    "kind": "body"
+  },
+  {
+    "name": "jack-1-0",
+    "kind": "body"
+  },
+  {
+    "name": "jack-2-0",
+    "kind": "body"
+  },
+  {
+    "name": "jack-0-1",
+    "kind": "body"
+  },
+  {
+    "name": "jack-1-1",
+    "kind": "body"
+  },
+  {
+    "name": "jack-2-1",
+    "kind": "body"
+  },
+  {
+    "name": "jack-0-2",
+    "kind": "body"
+  },
+  {
+    "name": "jack-1-2",
+    "kind": "body"
+  },
+  {
+    "name": "jack-2-2",
+    "kind": "body"
+  },
+  {
+    "name": "jack-0-3",
+    "kind": "body"
+  },
+  {
+    "name": "jack-1-3",
+    "kind": "body"
+  },
+  {
+    "name": "jack-2-3",
+    "kind": "body"
+  }
+]

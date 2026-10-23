@@ -1,0 +1,178 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "cabinet",
+    "kind": "prism"
+  },
+  {
+    "name": "marquee",
+    "kind": "prism"
+  },
+  {
+    "name": "screen-recess",
+    "kind": "prism"
+  },
+  {
+    "name": "bezel-side-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bezel-side-1",
+    "kind": "prism"
+  },
+  {
+    "name": "bezel-edge-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bezel-edge-1",
+    "kind": "prism"
+  },
+  {
+    "name": "control-shelf",
+    "kind": "prism"
+  },
+  {
+    "name": "button-seat-0",
+    "kind": "prism"
+  },
+  {
+    "name": "button-0",
+    "kind": "prism"
+  },
+  {
+    "name": "cartridge-0",
+    "kind": "prism"
+  },
+  {
+    "name": "button-seat-1",
+    "kind": "prism"
+  },
+  {
+    "name": "button-1",
+    "kind": "prism"
+  },
+  {
+    "name": "cartridge-1",
+    "kind": "prism"
+  },
+  {
+    "name": "button-seat-2",
+    "kind": "prism"
+  },
+  {
+    "name": "button-2",
+    "kind": "prism"
+  },
+  {
+    "name": "cartridge-2",
+    "kind": "prism"
+  },
+  {
+    "name": "coin-slot",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-0",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-1",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-2",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-3",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-4",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-5",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-6",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-7",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-rib-8",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-0",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-1",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-2",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-3",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-4",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-5",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-6",
+    "kind": "prism"
+  },
+  {
+    "name": "top-vents-7",
+    "kind": "prism"
+  }
+]

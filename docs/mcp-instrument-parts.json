@@ -1,0 +1,202 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "rack-upright-0",
+    "kind": "prism"
+  },
+  {
+    "name": "rack-upright-1",
+    "kind": "prism"
+  },
+  {
+    "name": "rack-roof",
+    "kind": "prism"
+  },
+  {
+    "name": "rack-back",
+    "kind": "prism"
+  },
+  {
+    "name": "patch-bank-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-0-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-0-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-0-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-0-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-0-2",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-0-2",
+    "kind": "prism"
+  },
+  {
+    "name": "patch-bank-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-1-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-1-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-1-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-1-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-1-2",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-1-2",
+    "kind": "prism"
+  },
+  {
+    "name": "patch-bank-2",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-2-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-2-0",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-2-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-2-1",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-collar-2-2",
+    "kind": "prism"
+  },
+  {
+    "name": "socket-2-2",
+    "kind": "prism"
+  },
+  {
+    "name": "optical-monitor",
+    "kind": "prism"
+  },
+  {
+    "name": "monitor-top",
+    "kind": "prism"
+  },
+  {
+    "name": "monitor-bottom",
+    "kind": "prism"
+  },
+  {
+    "name": "monitor-side-0",
+    "kind": "prism"
+  },
+  {
+    "name": "monitor-side-1",
+    "kind": "prism"
+  },
+  {
+    "name": "access-guide",
+    "kind": "prism"
+  },
+  {
+    "name": "access-shutter",
+    "kind": "prism"
+  },
+  {
+    "name": "access-handle",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-0",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-1",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-2",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-3",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-4",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-5",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-6",
+    "kind": "prism"
+  },
+  {
+    "name": "roof-vent-7",
+    "kind": "prism"
+  }
+]

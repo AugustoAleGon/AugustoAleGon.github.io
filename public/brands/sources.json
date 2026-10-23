@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Luxury Presence",
+    "publisher": "Luxury Presence, Inc.",
+    "listing": "https://apps.apple.com/us/app/luxury-presence/id6464844781?uo=4",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/9d/6c/ff9d6c25-0992-3392-d1e9-47794685d1cb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "file": ".impeccable/review/brand-research/luxury-presence.jpg"
+  },
+  {
+    "name": "Lemonaid Primary Care Complete",
+    "publisher": "SteadyMD, Inc.",
+    "listing": "https://apps.apple.com/us/app/lemonaid-primary-care-complete/id1141119462?uo=4",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/e2/5b/d8e25b78-4a9a-b611-6452-e37bcc173c16/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "file": ".impeccable/review/brand-research/steadymd-current-listing.jpg"
+  },
+  {
+    "name": "Pura Mente: Sleep & Meditation",
+    "publisher": "Pura Mente Meditation, Inc.",
+    "listing": "https://apps.apple.com/us/app/pura-mente-sleep-meditation/id1448598865?uo=4",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/85/86/9e8586be-cbda-0878-ff86-af1e3feaf0cf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "file": ".impeccable/review/brand-research/pura-mente.jpg"
+  },
+  {
+    "name": "Seen: Women\u2019s Sports Scores",
+    "publisher": "Crystal Cook",
+    "listing": "https://apps.apple.com/us/app/seen-womens-sports-scores/id6776036448?uo=4",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/fb/27/1bfb27f4-ca6d-7d10-bf92-bc7fba2274dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "file": ".impeccable/review/brand-research/seen.jpg"
+  },
+  {
+    "name": "SteadyMD corporate brand",
+    "source": "https://www.steadymd.com/wp-content/uploads/2022/01/cropped-LOGO-1-192x192.png",
+    "file": ".impeccable/review/brand-research/steadymd-brand.png",
+    "note": "Official company mark; historical app icon not verified."
+  },
+  {
+    "name": "SteadyMD corporate brand",
+    "source": "https://www.steadymd.com/wp-content/uploads/2022/01/logo.svg",
+    "file": ".impeccable/review/brand-research/steadymd-logo.svg",
+    "note": "Official company mark; historical app icon not verified."
+  }
+]

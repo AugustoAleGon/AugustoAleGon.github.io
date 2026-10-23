@@ -1,0 +1,202 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "scope",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-seat-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-hub-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-0-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-0-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-0-2",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-0-3",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-panel-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fader-0",
+    "kind": "prism"
+  },
+  {
+    "name": "source-0",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-0-0",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-0-1",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-0-2",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-0-3",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-0-4",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-seat-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-hub-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-1-0",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-1-1",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-1-2",
+    "kind": "prism"
+  },
+  {
+    "name": "reel-mark-1-3",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-panel-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fader-1",
+    "kind": "prism"
+  },
+  {
+    "name": "source-1",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-1-0",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-1-1",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-1-2",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-1-3",
+    "kind": "prism"
+  },
+  {
+    "name": "channel-mark-1-4",
+    "kind": "prism"
+  },
+  {
+    "name": "tape-head",
+    "kind": "prism"
+  },
+  {
+    "name": "health-pad",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-0",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-1",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-2",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-3",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-4",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-5",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-6",
+    "kind": "prism"
+  },
+  {
+    "name": "speaker-7",
+    "kind": "prism"
+  }
+]

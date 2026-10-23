@@ -1,0 +1,202 @@
+[
+  {
+    "name": "foot-0",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-1",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-2",
+    "kind": "prism"
+  },
+  {
+    "name": "foot-3",
+    "kind": "prism"
+  },
+  {
+    "name": "chassis",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-0",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-1",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-2",
+    "kind": "prism"
+  },
+  {
+    "name": "fastener-3",
+    "kind": "prism"
+  },
+  {
+    "name": "platform-pedestal-0",
+    "kind": "prism"
+  },
+  {
+    "name": "native-module-0",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-0",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-1",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-2",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-3",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-4",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-0-5",
+    "kind": "prism"
+  },
+  {
+    "name": "platform-pedestal-1",
+    "kind": "prism"
+  },
+  {
+    "name": "native-module-1",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-0",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-1",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-2",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-3",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-4",
+    "kind": "prism"
+  },
+  {
+    "name": "native-pin-1-5",
+    "kind": "prism"
+  },
+  {
+    "name": "javascript-api",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-pier-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-join-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-pier-1",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-join-1",
+    "kind": "prism"
+  },
+  {
+    "name": "shared-core",
+    "kind": "prism"
+  },
+  {
+    "name": "oscilloscope",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-seat-0",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-0",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-seat-1",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-1",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-seat-2",
+    "kind": "prism"
+  },
+  {
+    "name": "core-dial-2",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-vent-0",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-vent-1",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-vent-2",
+    "kind": "prism"
+  },
+  {
+    "name": "bridge-vent-3",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-0",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-1",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-2",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-3",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-4",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-5",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-6",
+    "kind": "prism"
+  },
+  {
+    "name": "core-contact-7",
+    "kind": "prism"
+  }
+]
