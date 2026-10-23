@@ -15,9 +15,15 @@ Separate workspace: Mobile enters a centered phone-shaped app library grouped by
 
 React/Next.js, AI and Web3 are separate visible sections. Employment, freelance work, personal projects, and bootcamp projects stay distinct. CDC appears only as documented Kafka/Debezium experience; the sources do not establish an incident story.
 
-Typography: self-hosted Manrope, controlled scale, short measures. Surfaces: #000000, #141414, #1f1f1f, #2e2e2e, #3b3a3a. Text: #f2f2f2, #b5b5b5. Real brand assets keep their colors. No decorative glow, grain, or page backdrop gradients. The user-requested iPhone-style library wallpaper is a scoped exception, drawn with static CSS gradients. Shadows describe physical depth.
+Typography: self-hosted Manrope, controlled scale, short measures. Surfaces: #000000, #141414, #1f1f1f, #2e2e2e, #3b3a3a. Text: #f2f2f2, #b5b5b5. Real brand assets keep their colors. No decorative glow, grain, or page backdrop gradients. The user-requested iPhone-style library wallpaper is a scoped exception, drawn with static CSS gradients. The user-approved pointer wake below is a second scoped exception for the page background. Shadows describe physical depth.
 
 Review at 1440 and 390 CSS pixels, English and Spanish, keyboard navigation, reduced motion, and no-WebGL fallback. The user authorized making this design the default homepage and publishing it on October 23, 2026.
+
+## Pointer wake — October 23
+
+The user selected a soft liquid-like wake across the entire portfolio background, in both themes, and authorized implementation. Pointer movement disturbs a quiet monochrome surface; overlapping waves fade within about two seconds. Silver relief on charcoal and graphite relief on off-white follow the existing theme control. One fixed canvas sits behind the portfolio content across home, story and mobile-workspace routes, with portraits, controls, phone demos and architecture drawings retaining their own surfaces.
+
+Motion is the focal interaction, with no entrance animation or idle loop. Fine hover pointers activate it; touch devices, reduced motion, print and unavailable WebGL keep the plain background. Rendering stops after settling, on hidden tabs, and on scroll/navigation. A bounded simulation and capped drawing resolution keep work independent of display pixel density. No new dependency, content change, legacy-route redesign or publication is included.
 
 ## Direction contract — project instruments
 

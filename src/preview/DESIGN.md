@@ -316,3 +316,13 @@ The shared header sun/moon control now supports both modes. The dark variant pre
 Contribution rows, architecture controls, fields and readouts follow the page theme. Project drawings initially follow the page theme; Paper view remains an independent material override for the current drawing. The legacy Events console remains a graphite object, and the phone workspace and playable demos retain their scoped palettes. Keyboard focus uses the current foreground color, with native controls inheriting the relevant color scheme.
 
 Both routes share the saved preference, dark default, translated control labels and pre-paint initialization described in the root design document. The revised design is now the default at `/`; the earlier design requires `?preview=legacy`.
+
+## Pointer-driven water surface
+
+The user-approved background interaction is a soft liquid wake, shared by every current portfolio route. `wake/PointerWake.tsx` owns a decorative, pointer-transparent canvas inside the isolated page stacking context. Its negative layer sits above the page background and below content, preserving sticky layout, focus indicators and solid object surfaces.
+
+`wake/simulation.ts` evolves a damped height field at fixed 60 Hz. Movement deposits a continuous, speed-sensitive disturbance; overlapping waves share the same surface. `wake/renderer.ts` shades the slope as neutral silver relief in dark mode and graphite relief in light mode. Alpha is capped at 0.13; theme changes update the shader without remounting the page. The field's longest edge is at most 192 cells, and the drawing buffer's longest edge is at most 1600 pixels with no high-DPI multiplier. There are no new runtime dependencies.
+
+The surface becomes still within 2.2 seconds of the last movement and then stops requesting frames. Scroll, navigation, resize, blur and document visibility changes clear the wake. Touch/coarse pointers, reduced-motion preferences and printing retain the plain background. Reduced-motion changes take effect during the session. Missing WebGL or shader setup failure leaves all content usable; context loss hides the canvas and restoration rebuilds its resources. Cleanup releases listeners, observers, animation frames and GPU resources. Existing architecture animations remain independently controlled.
+
+This interaction supersedes the earlier prohibition on page backdrop effects only for the requested liquid surface. It adds no autonomous motion, color accents or distortion to foreground content. Tests cover settling, idle rendering, both themes, navigation, reduced motion, touch fallback and WebGL availability/recovery.

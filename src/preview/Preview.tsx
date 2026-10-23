@@ -6,6 +6,7 @@ import LoadBoundary from '../components/LoadBoundary';
 import { projects, type ProjectId } from '../content/projects';
 import { brands, mobileCopy, stories, type Story, type Text } from './content';
 import s from './Preview.module.css';
+import PointerWake from './wake/PointerWake';
 
 const Architecture = lazy(() => import('./Architecture'));
 const demos = {
@@ -901,6 +902,7 @@ export default function Preview() {
   }
   return (
     <div className={s.preview}>
+      <PointerWake />
       <a className={s.skip} href="#main-content">
         {tr(['Skip to content', 'Ir al contenido'])}
       </a>
