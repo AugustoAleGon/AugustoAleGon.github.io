@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Phone from './components/Phone';
 import Icon from './components/Icon';
+import ThemeToggle from './components/ThemeToggle';
 import { projects, type ProjectId } from './content/projects';
 import s from './App.module.css';
 import DeferredSystem from './system/DeferredSystem';
@@ -63,6 +64,7 @@ export default function App() {
           <a href="#about">{t('nav.about')}</a>
         </nav>
         <div className={s.headerRight}>
+          <ThemeToggle />
           <button onClick={language} aria-label={t('nav.language')} className={s.language}>
             <span aria-current={i18n.language === 'en' ? 'true' : undefined}>EN</span>
             <span>/</span>

@@ -8,7 +8,6 @@ import LoadBoundary from './components/LoadBoundary';
 
 const Preview = lazy(() => import('./preview/Preview'));
 const isPreview = new URLSearchParams(window.location.search).get('preview') === 'revision';
-document.documentElement.classList.toggle('revision-preview', isPreview);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

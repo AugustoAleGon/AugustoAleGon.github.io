@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { useTranslation } from 'react-i18next';
 import Icon from '../components/Icon';
+import ThemeToggle from '../components/ThemeToggle';
 import LoadBoundary from '../components/LoadBoundary';
 import { projects, type ProjectId } from '../content/projects';
 import { brands, mobileCopy, stories, type Story, type Text } from './content';
@@ -929,6 +930,7 @@ export default function Preview() {
           {es ? 'EN' : 'ES'}
           <Icon name="globe" size={15} />
         </button>
+        <ThemeToggle />
       </header>
       <main id="main-content" ref={main} tabIndex={-1}>
         {route === 'story' && story ? (

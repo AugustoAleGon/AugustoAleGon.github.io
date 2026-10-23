@@ -1,3 +1,4 @@
+import { useTheme, type Theme } from '../../theme';
 import { memo, useEffect, useRef, useState, useSyncExternalStore, useId } from 'react';
 import type { Story, Text } from '../content';
 import { copy } from './copy';
@@ -103,9 +104,9 @@ export default function Instrument({
       ...initialInputs,
       selected: [...initialInputs.selected],
     }));
-  const pageTheme = 'dark';
+  const pageTheme = useTheme();
   const [playing, setPlaying] = useState(true);
-  const [materialTheme, setTheme] = useState<'dark' | 'light' | null>(null);
+  const [materialTheme, setTheme] = useState<Theme | null>(null);
   const theme = materialTheme ?? pageTheme;
   useEffect(() => {
     let cancelled = false;
