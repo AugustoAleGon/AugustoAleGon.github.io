@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T18:55:08.548403+00:00",
+  "title": "Design System: Augusto Gonzalez",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00540 95.10)",
+          "oklch(26.43% 0.00540 95.10)",
+          "oklch(37.86% 0.00540 95.10)",
+          "oklch(49.29% 0.00540 95.10)",
+          "oklch(60.71% 0.00540 95.10)",
+          "oklch(72.14% 0.00540 95.10)",
+          "oklch(83.57% 0.00540 95.10)",
+          "oklch(95.00% 0.00540 95.10)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.01226 135.05)",
+          "oklch(26.43% 0.01226 135.05)",
+          "oklch(37.86% 0.01226 135.05)",
+          "oklch(49.29% 0.01226 135.05)",
+          "oklch(60.71% 0.01226 135.05)",
+          "oklch(72.14% 0.01226 135.05)",
+          "oklch(83.57% 0.01226 135.05)",
+          "oklch(95.00% 0.01226 135.05)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.00% 0.01720 119.40)",
+          "oklch(26.43% 0.01720 119.40)",
+          "oklch(37.86% 0.01720 119.40)",
+          "oklch(49.29% 0.01720 119.40)",
+          "oklch(60.71% 0.01720 119.40)",
+          "oklch(72.14% 0.01720 119.40)",
+          "oklch(83.57% 0.01720 119.40)",
+          "oklch(95.00% 0.01720 119.40)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.00% 0.01487 110.91)",
+          "oklch(26.43% 0.01487 110.91)",
+          "oklch(37.86% 0.01487 110.91)",
+          "oklch(49.29% 0.01487 110.91)",
+          "oklch(60.71% 0.01487 110.91)",
+          "oklch(72.14% 0.01487 110.91)",
+          "oklch(83.57% 0.01487 110.91)",
+          "oklch(95.00% 0.01487 110.91)"
+        ]
+      },
+      "copper": {
+        "role": "primary",
+        "displayName": "Copper",
+        "tonalRamp": [
+          "oklch(15.00% 0.14233 37.14)",
+          "oklch(26.43% 0.14233 37.14)",
+          "oklch(37.86% 0.14233 37.14)",
+          "oklch(49.29% 0.14233 37.14)",
+          "oklch(60.71% 0.14233 37.14)",
+          "oklch(72.14% 0.14233 37.14)",
+          "oklch(83.57% 0.14233 37.14)",
+          "oklch(95.00% 0.14233 37.14)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15.00% 0.12688 42.70)",
+          "oklch(26.43% 0.12688 42.70)",
+          "oklch(37.86% 0.12688 42.70)",
+          "oklch(49.29% 0.12688 42.70)",
+          "oklch(60.71% 0.12688 42.70)",
+          "oklch(72.14% 0.12688 42.70)",
+          "oklch(83.57% 0.12688 42.70)",
+          "oklch(95.00% 0.12688 42.70)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Button Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.03300 128.44)",
+          "oklch(26.43% 0.03300 128.44)",
+          "oklch(37.86% 0.03300 128.44)",
+          "oklch(49.29% 0.03300 128.44)",
+          "oklch(60.71% 0.03300 128.44)",
+          "oklch(72.14% 0.03300 128.44)",
+          "oklch(83.57% 0.03300 128.44)",
+          "oklch(95.00% 0.03300 128.44)"
+        ]
+      },
+      "sage-field": {
+        "role": "secondary",
+        "displayName": "Sage Field",
+        "tonalRamp": [
+          "oklch(15.00% 0.01652 121.78)",
+          "oklch(26.43% 0.01652 121.78)",
+          "oklch(37.86% 0.01652 121.78)",
+          "oklch(49.29% 0.01652 121.78)",
+          "oklch(60.71% 0.01652 121.78)",
+          "oklch(72.14% 0.01652 121.78)",
+          "oklch(83.57% 0.01652 121.78)",
+          "oklch(95.00% 0.01652 121.78)"
+        ]
+      },
+      "machine-run": {
+        "role": "secondary",
+        "displayName": "Machine Run",
+        "tonalRamp": [
+          "oklch(15.00% 0.04364 132.81)",
+          "oklch(26.43% 0.04364 132.81)",
+          "oklch(37.86% 0.04364 132.81)",
+          "oklch(49.29% 0.04364 132.81)",
+          "oklch(60.71% 0.04364 132.81)",
+          "oklch(72.14% 0.04364 132.81)",
+          "oklch(83.57% 0.04364 132.81)",
+          "oklch(95.00% 0.04364 132.81)"
+        ]
+      },
+      "machine-paper": {
+        "role": "secondary",
+        "displayName": "Machine Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.01367 120.28)",
+          "oklch(26.43% 0.01367 120.28)",
+          "oklch(37.86% 0.01367 120.28)",
+          "oklch(49.29% 0.01367 120.28)",
+          "oklch(60.71% 0.01367 120.28)",
+          "oklch(72.14% 0.01367 120.28)",
+          "oklch(83.57% 0.01367 120.28)",
+          "oklch(95.00% 0.01367 120.28)"
+        ]
+      },
+      "machine-top": {
+        "role": "secondary",
+        "displayName": "Machine Top",
+        "tonalRamp": [
+          "oklch(15.00% 0.01062 112.37)",
+          "oklch(26.43% 0.01062 112.37)",
+          "oklch(37.86% 0.01062 112.37)",
+          "oklch(49.29% 0.01062 112.37)",
+          "oklch(60.71% 0.01062 112.37)",
+          "oklch(72.14% 0.01062 112.37)",
+          "oklch(83.57% 0.01062 112.37)",
+          "oklch(95.00% 0.01062 112.37)"
+        ]
+      },
+      "machine-shade-0": {
+        "role": "secondary",
+        "displayName": "Machine Shade 0",
+        "tonalRamp": [
+          "oklch(15.00% 0.03031 124.11)",
+          "oklch(26.43% 0.03031 124.11)",
+          "oklch(37.86% 0.03031 124.11)",
+          "oklch(49.29% 0.03031 124.11)",
+          "oklch(60.71% 0.03031 124.11)",
+          "oklch(72.14% 0.03031 124.11)",
+          "oklch(83.57% 0.03031 124.11)",
+          "oklch(95.00% 0.03031 124.11)"
+        ]
+      },
+      "machine-shade-1": {
+        "role": "secondary",
+        "displayName": "Machine Shade 1",
+        "tonalRamp": [
+          "oklch(15.00% 0.02530 121.97)",
+          "oklch(26.43% 0.02530 121.97)",
+          "oklch(37.86% 0.02530 121.97)",
+          "oklch(49.29% 0.02530 121.97)",
+          "oklch(60.71% 0.02530 121.97)",
+          "oklch(72.14% 0.02530 121.97)",
+          "oklch(83.57% 0.02530 121.97)",
+          "oklch(95.00% 0.02530 121.97)"
+        ]
+      },
+      "machine-shade-2": {
+        "role": "secondary",
+        "displayName": "Machine Shade 2",
+        "tonalRamp": [
+          "oklch(15.00% 0.02093 121.88)",
+          "oklch(26.43% 0.02093 121.88)",
+          "oklch(37.86% 0.02093 121.88)",
+          "oklch(49.29% 0.02093 121.88)",
+          "oklch(60.71% 0.02093 121.88)",
+          "oklch(72.14% 0.02093 121.88)",
+          "oklch(83.57% 0.02093 121.88)",
+          "oklch(95.00% 0.02093 121.88)"
+        ]
+      },
+      "machine-shade-3": {
+        "role": "secondary",
+        "displayName": "Machine Shade 3",
+        "tonalRamp": [
+          "oklch(15.00% 0.01657 121.78)",
+          "oklch(26.43% 0.01657 121.78)",
+          "oklch(37.86% 0.01657 121.78)",
+          "oklch(49.29% 0.01657 121.78)",
+          "oklch(60.71% 0.01657 121.78)",
+          "oklch(72.14% 0.01657 121.78)",
+          "oklch(83.57% 0.01657 121.78)",
+          "oklch(95.00% 0.01657 121.78)"
+        ]
+      },
+      "machine-outline": {
+        "role": "secondary",
+        "displayName": "Machine Outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.03826 126.98)",
+          "oklch(26.43% 0.03826 126.98)",
+          "oklch(37.86% 0.03826 126.98)",
+          "oklch(49.29% 0.03826 126.98)",
+          "oklch(60.71% 0.03826 126.98)",
+          "oklch(72.14% 0.03826 126.98)",
+          "oklch(83.57% 0.03826 126.98)",
+          "oklch(95.00% 0.03826 126.98)"
+        ]
+      },
+      "machine-copper": {
+        "role": "secondary",
+        "displayName": "Machine Copper",
+        "tonalRamp": [
+          "oklch(15.00% 0.12816 40.39)",
+          "oklch(26.43% 0.12816 40.39)",
+          "oklch(37.86% 0.12816 40.39)",
+          "oklch(49.29% 0.12816 40.39)",
+          "oklch(60.71% 0.12816 40.39)",
+          "oklch(72.14% 0.12816 40.39)",
+          "oklch(83.57% 0.12816 40.39)",
+          "oklch(95.00% 0.12816 40.39)"
+        ]
+      },
+      "seen-screen": {
+        "role": "neutral",
+        "displayName": "Seen Screen",
+        "tonalRamp": [
+          "oklch(15.00% 0.00435 128.74)",
+          "oklch(26.43% 0.00435 128.74)",
+          "oklch(37.86% 0.00435 128.74)",
+          "oklch(49.29% 0.00435 128.74)",
+          "oklch(60.71% 0.00435 128.74)",
+          "oklch(72.14% 0.00435 128.74)",
+          "oklch(83.57% 0.00435 128.74)",
+          "oklch(95.00% 0.00435 128.74)"
+        ]
+      },
+      "seen-card": {
+        "role": "neutral",
+        "displayName": "Seen Card",
+        "tonalRamp": [
+          "oklch(15.00% 0.00986 124.97)",
+          "oklch(26.43% 0.00986 124.97)",
+          "oklch(37.86% 0.00986 124.97)",
+          "oklch(49.29% 0.00986 124.97)",
+          "oklch(60.71% 0.00986 124.97)",
+          "oklch(72.14% 0.00986 124.97)",
+          "oklch(83.57% 0.00986 124.97)",
+          "oklch(95.00% 0.00986 124.97)"
+        ]
+      },
+      "seen-text": {
+        "role": "neutral",
+        "displayName": "Seen Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.00698 88.64)",
+          "oklch(26.43% 0.00698 88.64)",
+          "oklch(37.86% 0.00698 88.64)",
+          "oklch(49.29% 0.00698 88.64)",
+          "oklch(60.71% 0.00698 88.64)",
+          "oklch(72.14% 0.00698 88.64)",
+          "oklch(83.57% 0.00698 88.64)",
+          "oklch(95.00% 0.00698 88.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "headline-emphasis": {
+        "displayName": "Headline Emphasis",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "case-title": {
+        "displayName": "Case Title",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "intro": {
+        "displayName": "Intro",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Extracted from src/App.module.css and src/global.css; see DESIGN.md Typography for responsive overrides."
+      }
+    },
+    "shadows": [
+      {
+        "name": "phone-cast",
+        "value": "0 34px 50px -26px #37382e66, 0 5px 8px #37382e20",
+        "purpose": "Hardware-only cast shadow; src/components/Phone.module.css .hardware."
+      }
+    ],
+    "motion": [
+      {
+        "name": "contact-state",
+        "value": "background 0.2s, color 0.2s",
+        "purpose": "Circular contact hover; src/App.module.css .contactButton."
+      },
+      {
+        "name": "machine-step",
+        "value": "950ms",
+        "purpose": "Normal request-stage tick; src/system/System.tsx."
+      },
+      {
+        "name": "machine-reduced-step",
+        "value": "80ms",
+        "purpose": "Reduced-motion tick with WebGL flow cleared; src/system/System.tsx."
+      },
+      {
+        "name": "reduced-duration",
+        "value": "0.01ms",
+        "purpose": "Global reduced-motion CSS animation/transition duration; src/global.css."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "container-margins",
+        "value": "1280px"
+      },
+      {
+        "name": "tablet",
+        "value": "850px"
+      },
+      {
+        "name": "single-column",
+        "value": "650px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Page action; src/global.css .button.",
+      "html": "<a class=\"ds-primary\" href=\"#system\">Explore the system</a>",
+      "css": ".ds-primary { display: inline-flex; gap:19px; padding:14px 19px; border-radius:5px; background:var(--ink,#252923); color:var(--paper,#f7f6f2); font-size:12px; font-weight:600; text-decoration:none; font-family: 'Manrope Variable', sans-serif; } .ds-primary:hover { background:#424b38; } .ds-primary:focus-visible { outline: 2px solid #b35a34; outline-offset: 5px; }"
+    },
+    {
+      "name": "Run request",
+      "kind": "button",
+      "refersTo": "button-machine-run",
+      "description": "Instrument action; src/system/System.module.css .controls .run.",
+      "html": "<button class=\"ds-run\">Run request</button>",
+      "css": ".ds-run { padding:11px 15px; border:1px solid #35432b; border-radius:5px; background:#35432b; color:#fff; font-size:11px; font-weight:600; font-family: 'Manrope Variable', sans-serif; } .ds-run:disabled { opacity:.45; cursor:default; } .ds-run:focus-visible { outline: 2px solid #b35a34; outline-offset: 5px; }"
+    },
+    {
+      "name": "Machine secondary action",
+      "kind": "button",
+      "refersTo": "button-machine-secondary",
+      "description": "Instrument action; src/system/System.module.css .controls button.",
+      "html": "<button class=\"ds-secondary\">Reset</button>",
+      "css": ".ds-secondary { padding:11px 15px; border:1px solid #b8beac; border-radius:5px; background:transparent; color:#3e4934; font-size:11px; font-weight:600; font-family: 'Manrope Variable', sans-serif; } .ds-secondary:disabled { opacity:.45; cursor:default; } .ds-secondary:focus-visible { outline: 2px solid #b35a34; outline-offset: 5px; }"
+    },
+    {
+      "name": "Note field",
+      "kind": "input",
+      "refersTo": "input-note",
+      "description": "Luxury demo textarea; src/demos/Demos.module.css .luxury textarea plus global focus/caret.",
+      "html": "<textarea class=\"ds-note\" aria-label=\"Property note\" placeholder=\"Add a note\"></textarea>",
+      "css": ".ds-note { resize:vertical; min-height:56px; width:100%; border:1px solid #bcbcaa; border-radius:4px; background:transparent; color:var(--ink,#252923); padding:8px; font-size:10px; caret-color:var(--accent,#ae4728); font-family: 'Manrope Variable', sans-serif; } .ds-note::placeholder { color:#70766b; opacity:1; } .ds-note:focus-visible { outline: 2px solid #b35a34; outline-offset: 5px; }"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Page navigation; src/App.module.css .header nav.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#work\">Selected work</a><a href=\"#system\">Under the hood</a><a href=\"#about\">About</a></nav>",
+      "css": ".ds-nav { display:flex; gap:30px; font-size:11px; color:#5c6255; font-family: 'Manrope Variable', sans-serif; } .ds-nav a { color:inherit; text-decoration:none; } .ds-nav a:hover { color:var(--accent,#ae4728); } .ds-nav a:focus-visible { outline: 2px solid #b35a34; outline-offset: 5px; }"
+    },
+    {
+      "name": "Technology chip",
+      "kind": "chip",
+      "refersTo": "chip-stack",
+      "description": "Noninteractive label; src/App.module.css .stack span.",
+      "html": "<span class=\"ds-chip\">React Native</span>",
+      "css": ".ds-chip { display:inline-block; font-size:9px; border:1px solid #d4d7ca; border-radius:4px; padding:5px 8px; color:#5f6853; font-family: 'Manrope Variable', sans-serif; }"
+    },
+    {
+      "name": "Seen score card",
+      "kind": "card",
+      "refersTo": "card-seen",
+      "description": "Scoped demo container; src/demos/Demos.module.css .game and .gameStatus.",
+      "html": "<article class=\"ds-game\"><p class=\"ds-status\">Final</p><div class=\"ds-team\">Brooklyn Orbit</div><div class=\"ds-team\">Seattle Current</div></article>",
+      "css": ".ds-game { background:#1c1e19; color:#f5f3ee; border-radius:10px; padding:11px 12px; font-family: 'Manrope Variable', sans-serif; } .ds-status { margin:0 0 11px; color:#c3c4b8; font-size:8px; } .ds-team { margin:8px 0; font-size:10px; font-weight:550; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Light Engineering Studio",
+    "overview": "A light technical studio pairs warm paper and graphite with copper details and sage instruments. Large, closely set sans-serif headings carry the argument; italic serif phrases add a human voice. Working objects provide the visual evidence.\n\nThe same visual hierarchy serves English and Spanish. The surrounding portfolio stays restrained while each interactive phone demo retains its own scoped product palette.",
+    "keyCharacteristics": [
+      "Warm paper and fine dividers.",
+      "Manrope structure with italic DM Serif Display emphasis.",
+      "Physical phone and isometric instrument; quiet surrounding surfaces."
+    ],
+    "rules": [
+      {
+        "name": "Scoped Product Color",
+        "body": "Keep demo palettes inside the phone; use paper, graphite, copper, and sage for the portfolio.",
+        "section": "colors"
+      },
+      {
+        "name": "Phrase Emphasis",
+        "body": "Use the italic serif for meaningful heading phrases, with sans-serif for body text and controls.",
+        "section": "typography"
+      },
+      {
+        "name": "Object Depth",
+        "body": "Reserve dimensional treatments for physical objects and illustrations; use rules and tonal fields for editorial sections.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep both English and Spanish layouts usable at the implemented mobile breakpoints.",
+      "Do retain visible keyboard focus, text readouts, and reduced-motion behavior.",
+      "Do use the actual phone and machine component sources when extending their appearance."
+    ],
+    "donts": [
+      "Don't reintroduce decorative eyebrows above the main section headings.",
+      "Don't turn the phone demos’ local colors or compact text sizes into general page defaults.",
+      "Don't replace physical SVG geometry with generic floating cards or hard offset UI shadows."
+    ]
+  }
+}

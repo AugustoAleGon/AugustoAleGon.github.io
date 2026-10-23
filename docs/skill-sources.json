@@ -1,0 +1,26 @@
+[
+  {
+    "name": "impeccable",
+    "repository": "https://github.com/pbakaus/impeccable",
+    "revision": "69c34b7c3d6267dfd783dacb9f58f04522656b2b",
+    "path": ".agents/skills/impeccable"
+  },
+  {
+    "name": "anatomy",
+    "repository": "https://github.com/wheresryan22/anatomy",
+    "revision": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+    "path": "."
+  },
+  {
+    "name": "vercel-react-best-practices",
+    "repository": "https://github.com/vercel-labs/agent-skills",
+    "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "path": "skills/react-best-practices"
+  },
+  {
+    "name": "asd-ste100",
+    "repository": "https://github.com/danyuchn/asd-ste100-skill",
+    "revision": "cd62d297d5ef7cf9f59718cadc233ab2876ea013",
+    "path": "."
+  }
+]
