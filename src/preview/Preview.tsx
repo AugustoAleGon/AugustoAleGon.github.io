@@ -744,7 +744,12 @@ function Mobile({ app, tr }: { app: ProjectId | undefined; tr: Translate }) {
               <Icon name="external" size={17} />
             </a>
           </div>
-          <div ref={screen} className={`${s.phoneScreen} ${demo ? s.demoScreen : ''}`}>
+          <div
+            id="mobile-screen"
+            ref={screen}
+            tabIndex={-1}
+            className={`${s.phoneScreen} ${demo ? s.demoScreen : ''}`}
+          >
             {project && details && app ? (
               demo && Demo ? (
                 <LoadBoundary key={app}>
@@ -878,10 +883,18 @@ export default function Preview() {
   const story = stories.find((item) => item.id === hash.split('/')[1]);
   const app = projects.find((item) => item.id === hash.split('/')[1])?.id;
   const main = useRef<HTMLElement>(null);
+  const previousHash = useRef('');
   useEffect(() => {
     document.documentElement.lang = es ? 'es' : 'en';
   }, [es]);
   useEffect(() => {
+    const withinPhone = hash.startsWith('#mobile') && previousHash.current.startsWith('#mobile');
+    previousHash.current = hash;
+    if (withinPhone) {
+      // App navigation replaces the screen, not the surrounding page viewport.
+      document.getElementById('mobile-screen')?.focus({ preventScroll: true });
+      return;
+    }
     const target = document.getElementById(hash.slice(1));
     if (target) target.scrollIntoView({ behavior: 'instant' });
     else window.scrollTo({ top: 0, behavior: 'instant' });
