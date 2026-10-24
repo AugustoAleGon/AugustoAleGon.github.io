@@ -1,5 +1,5 @@
 import { useTheme, type Theme } from '../../theme';
-import { memo, useEffect, useRef, useState, useSyncExternalStore, useId } from 'react';
+import { memo, useEffect, useRef, useState, useId } from 'react';
 import type { Story, Text } from '../content';
 import { copy } from './copy';
 import ProjectControls from './ProjectControls';
@@ -9,12 +9,7 @@ import Icon from '../../components/Icon';
 import '../../../vendor/anatomy/iso.css';
 import s from './Instrument.module.css';
 import { instrumentLoaders } from './registry';
-const subscribeMotion = (callback: () => void) => {
-  const media = matchMedia('(prefers-reduced-motion: reduce)');
-  media.addEventListener('change', callback);
-  return () => media.removeEventListener('change', callback);
-};
-const isReduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+import { useReducedMotion, useTour } from '../useTour';
 type Translate = (text: Text) => string;
 const ArtLayer = memo(function ArtLayer({
   art,
@@ -56,18 +51,15 @@ function Drawing({
   const stage = useRef<HTMLDivElement>(null),
     canvas = useRef<HTMLCanvasElement>(null);
   const renderer = useRef<ReturnType<typeof mountInstrument> | null>(null);
-  const callbacks = useRef({ advance, stop });
+  useTour(stage, pose.playing, pose.phase, advance);
+  const callbacks = useRef({ stop });
   useEffect(() => {
-    callbacks.current = { advance, stop };
+    callbacks.current = { stop };
   });
   useEffect(() => {
     if (!stage.current || !canvas.current) return;
-    const live = mountInstrument(
-      stage.current,
-      canvas.current,
-      art,
-      () => callbacks.current.advance(),
-      () => callbacks.current.stop(),
+    const live = mountInstrument(stage.current, canvas.current, art, () =>
+      callbacks.current.stop(),
     );
     renderer.current = live;
     return () => {
@@ -121,7 +113,7 @@ export default function Instrument({
       cancelled = true;
     };
   }, [id]);
-  const reduced = useSyncExternalStore(subscribeMotion, isReduced, () => true);
+  const reduced = useReducedMotion();
   const touring = playing && !reduced;
   const model = instrumentModel(id, step, inputs);
   const pick = (next: number) => {

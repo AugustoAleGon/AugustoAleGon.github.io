@@ -43,7 +43,6 @@ export function mountInstrument(
   stage: HTMLDivElement,
   canvas: HTMLCanvasElement,
   art: Art,
-  onAdvance: () => void,
   onReduced: () => void,
 ) {
   const front = stage;
@@ -82,7 +81,6 @@ export function mountInstrument(
     power = 0,
     last = 0,
     frame = 0,
-    timer = 0,
     visible = false,
     disposed = false,
     order = '';
@@ -214,11 +212,9 @@ export function mountInstrument(
   function refresh() {
     cancelAnimationFrame(frame);
     frame = 0;
-    clearTimeout(timer);
     if (disposed || !visible || document.hidden) return;
     last = 0;
     frame = requestAnimationFrame(draw);
-    if (pose.playing && !motion.matches) timer = window.setTimeout(onAdvance, 6500);
   }
   const observer = new IntersectionObserver((entries) => {
     visible = entries[entries.length - 1].isIntersecting;
@@ -267,7 +263,6 @@ export function mountInstrument(
     dispose() {
       disposed = true;
       cancelAnimationFrame(frame);
-      clearTimeout(timer);
       observer.disconnect();
       resize.disconnect();
       motion.removeEventListener('change', changeMotion);
