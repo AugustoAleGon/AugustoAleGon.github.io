@@ -30,13 +30,13 @@ test('boards, messaging, playback, and launcher work', async ({ page }) => {
     'true',
   );
   await page.getByRole('button', { name: 's SteadyMD', exact: true }).click();
-  await page.getByRole('button', { name: /Dr. Morgan Primary care/ }).click();
+  await expect(page.getByRole('log')).toBeVisible();
   await page.getByRole('button', { name: 'Simulate offline mode' }).click();
   await page.getByRole('textbox', { name: 'Write a message…' }).fill('Tuesday works for me.');
   await page.getByRole('button', { name: 'Send message' }).click();
   await expect(page.getByText('Queued · waiting for connection')).toBeVisible();
   await page.getByRole('button', { name: 'Simulate offline mode' }).click();
-  await expect(page.getByText('Sent', { exact: true })).toBeVisible();
+  await expect(page.getByText('Sent locally', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'p Pura Mente', exact: true }).click();
   await page.getByRole('button', { name: 'Play', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Pause', exact: true })).toBeVisible();

@@ -27,3 +27,9 @@ Source reviewed: supplied `experience-bank.md` notes, entries 1, 2, 22 and 45, p
 - **Applied AI:** internal ContextForge MCP gateway at Luxury Presence; Datadog alerts becoming Linear tickets and PRs for straightforward fixes; an OpenAI-powered Notes chatbot for saved searches and new contacts. Do not infer automatic merging/deployment, a specific model, function-calling implementation or formal evaluations.
 - **Academic NLP project:** FastAPI serves a trained NLP model over REST. Raw text enters and predictions return over HTTP. Dates, NLP task, architecture, dataset and ML library remain unconfirmed, so the site omits them.
 - The Superpowered diagram's waveform and all sample paths are conceptual. The browser does not execute the SDK or run a playback benchmark.
+
+## SteadyMD chat demo — October 24, 2026
+
+Reviewed the supplied local `Rocket.Chat.ReactNative` fork at `6072595b`. Its authenticated route opens a role-aware rooms list (`app/_layout.tsx`); active Expo routes wrap `legacy/views/RoomsListView`. Patient channels display previews, timestamps and unread counts. `legacy/containers/message/Message.js` renders sender-labelled message rows, and `legacy/containers/MessageBox` provides a multiline composer.
+
+The portfolio demo opens directly into a fictional Care team conversation so visitors can try messaging immediately. All chats opens the two-room patient example; drafts and messages remain room-specific only while the demo is mounted. Offline queuing is an explicit local simulation, not a production connection. Sending never generates a clinician response. The current reference header says Lemonaid; the portfolio retains SteadyMD as the historical contribution identity, not a pixel-perfect reconstruction of current branding. No private source or patient data was copied.

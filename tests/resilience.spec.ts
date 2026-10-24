@@ -76,15 +76,14 @@ test('the homepage demo can fail without losing its contribution page', async ({
 test('reopening a long chat shows the latest messages', async ({ page }) => {
   await page.goto('/?preview=legacy');
   await page.getByRole('button', { name: 's SteadyMD', exact: true }).click();
-  const conversation = page.getByRole('button', { name: /Dr. Morgan Primary care/ });
-  await conversation.click();
+  const conversation = page.getByRole('button', { name: /Care team/ });
   for (let i = 0; i < 8; i++) {
     await page.getByRole('textbox', { name: 'Write a message…' }).fill(`Message ${i}`);
     await page.getByRole('button', { name: 'Send message', exact: true }).click();
   }
   const log = page.getByRole('log');
   expect(await log.evaluate((node) => node.scrollHeight > node.clientHeight)).toBe(true);
-  await page.getByRole('button', { name: 'Your care team', exact: true }).click();
+  await page.getByRole('button', { name: 'All chats', exact: true }).click();
   await expect(log).toHaveCount(0);
   await conversation.click();
   await expect

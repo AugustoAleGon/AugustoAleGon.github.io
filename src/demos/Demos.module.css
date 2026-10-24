@@ -412,34 +412,209 @@
   opacity: 0.5;
   cursor: default;
 }
-.chatLogo {
-  color: #366875;
-  font-weight: 800;
-  font-size: 21px;
-  letter-spacing: -0.04em;
+.chat {
   display: flex;
-  align-items: center;
-  margin-bottom: 26px;
+  flex-direction: column;
+  height: 100%;
+  min-height: 470px;
+  background: #f8faf9;
+  color: #253e43;
 }
-.chatLogo > span:first-child {
+.chatLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #366875;
+  font-size: 19px;
+  letter-spacing: -0.04em;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dce5e2;
+}
+.chatLogo strong {
   font-weight: 450;
 }
-.healthMark {
-  margin-left: auto;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  color: white;
-  background: #366875;
+.chatDemoLabel {
+  font-size: 8px;
+  letter-spacing: 0.08em;
+  color: #526b70;
+}
+.chatHeader {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 16px 0;
+}
+.chat .chatHeader h2 {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.chatHeader p {
+  font-size: 10px;
+  color: #586d70;
+  margin: 4px 0 0;
+}
+.chatBack {
   display: grid;
   place-items: center;
-  font-weight: 400;
-  font-size: 20px;
+  min-width: 32px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: #366875;
+}
+.doctor {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #dceae5;
+  color: #325e58;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 650;
+}
+.selfAvatar {
+  background: #e4e9f2;
+  color: #425b7e;
+}
+.messageList {
+  flex: 1;
+  min-height: 120px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 0 2px;
+}
+.chatTime {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #586d70;
+  font-size: 10px;
+  margin: 8px 0 22px;
+}
+.chatTime::before,
+.chatTime::after {
+  content: '';
+  height: 1px;
+  flex: 1;
+  background: #dce5e2;
+}
+.chatMessage {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 22px;
+}
+.chatMessage > div:last-child {
+  flex: 1;
+  min-width: 0;
+}
+.messageMeta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.messageMeta strong {
+  font-size: 12px;
+}
+.messageMeta time {
+  font-size: 9px;
+  color: #586d70;
+  flex-shrink: 0;
+}
+.chatMessage p {
+  font-size: 12px;
+  line-height: 1.65;
+  margin: 5px 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.chatMessage small {
+  display: block;
+  color: #526b70;
+  font-size: 9px;
+  margin-top: 4px;
+}
+.compose {
+  display: flex;
+  flex-shrink: 0;
+  align-items: flex-end;
+  border: 1px solid #b8cbc5;
+  border-radius: 12px;
+  background: #fff;
+  padding: 5px;
+  margin-top: 12px;
+}
+.compose textarea {
+  resize: vertical;
+  border: none;
+  background: none;
+  width: 100%;
+  min-width: 0;
+  min-height: 52px;
+  max-height: 120px;
+  padding: 10px 7px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #253e43;
+}
+.compose button {
+  display: grid;
+  place-items: center;
+  min-width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 9px;
+  color: #fff;
+  background: #366875;
+}
+.compose button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.connection {
+  margin: 10px 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 0;
+  color: #526b70;
+  font-size: 9px;
+  padding: 6px 0;
+}
+.connection svg {
+  margin-left: auto;
+}
+.onlineDot,
+.offlineDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #50794f;
+}
+.offlineDot {
+  background: #a46c35;
+}
+.medicalNote {
+  color: #586d70;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+.channelList {
+  flex: 1;
+  padding-top: 24px;
+}
+.chat .channelList h2 {
+  font-size: 22px;
 }
 .conversation {
   border: 0;
-  border-top: 1px solid #d3deda;
-  border-bottom: 1px solid #d3deda;
+  border-bottom: 1px solid #dce5e2;
   background: none;
   display: flex;
   padding: 20px 0;
@@ -447,135 +622,30 @@
   width: 100%;
   text-align: left;
   gap: 10px;
+  color: inherit;
 }
-.doctor {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: #d0ded9;
-  color: #38675d;
+.roomSummary {
+  flex: 1;
+  min-width: 0;
+}
+.roomSummary p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 7px 0 0;
+  color: #526b70;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.unread {
   display: grid;
   place-items: center;
-  flex-shrink: 0;
-}
-.conversation strong,
-.chatPerson strong {
-  font-size: 11px;
-  display: block;
-}
-.conversation span,
-.chatPerson span {
-  font-size: 9px;
-  display: block;
-  color: #617268;
-  margin-top: 3px;
-}
-.conversation p {
-  font-size: 10px;
-  line-height: 1.5;
-  margin: 13px 0 0;
-  color: #4c5955;
-}
-.conversation svg {
-  flex-shrink: 0;
-}
-.medicalNote {
-  color: #63716b;
-  font-size: 9px;
-  line-height: 1.5;
-  margin: 18px 0 0;
-}
-.chatPerson {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
-.connection {
-  margin: 14px 0 10px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: #e9eee9;
-  border: 0;
-  border-radius: 4px;
-  color: #4b6254;
-  font-size: 9px;
-  padding: 7px;
-}
-.connection svg {
-  margin-left: auto;
-}
-.onlineDot,
-.offlineDot {
-  width: 5px;
-  height: 5px;
+  min-width: 18px;
+  height: 18px;
   border-radius: 50%;
-  background: #50794f;
-}
-.offlineDot {
-  background: #a46c35;
-}
-.messageList {
-  height: 174px;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  scrollbar-width: thin;
-  padding: 0 2px;
-}
-.chatTime {
-  text-align: center;
-  color: #6a756e;
-  font-size: 8px;
-  margin: 7px 0 15px;
-}
-.bubble {
-  padding: 10px 11px;
-  border-radius: 9px 9px 9px 1px;
-  background: #e8ede7;
-  max-width: 91%;
   font-size: 10px;
-  line-height: 1.6;
-  margin: 9px 0;
-  overflow-wrap: anywhere;
-}
-.outgoing {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.outgoing .bubble {
-  border-radius: 9px 9px 1px 9px;
-  background: #3e6b71;
-  color: #fff;
-}
-.outgoing small {
-  font-size: 8px;
-  color: #69766d;
-}
-.compose {
-  display: flex;
-  border: 1px solid #bccdc2;
-  border-radius: 6px;
-  margin-top: 10px;
-  overflow: hidden;
-}
-.compose input {
-  border: none;
-  background: none;
-  width: 100%;
-  min-width: 0;
-  padding: 10px 7px;
-  font-size: 10px;
-}
-.compose button {
-  border: 0;
-  color: #fff;
-  background: #3d6970;
-  padding: 7px;
-}
-.compose button:disabled {
-  opacity: 0.5;
+  background: #366875;
+  color: white;
 }
 .puraLogo {
   display: flex;
